@@ -3,6 +3,8 @@ node {
 		checkout scm
 	test
 	test1
+	test2
+	test3
 
 	stage 'Build'
 		bat 'nuget restore SolutionName.sln'
